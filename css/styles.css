@@ -1,0 +1,21 @@
+.landing{
+
+}
+
+.navbar,
+{
+    color: white;
+    background-color: transparent;
+}
+
+.img-fluid{
+    width: 100%;
+    
+}
+
+
+
+.jumbrotron{
+    background-image: url();
+    background-size: cover;
+}

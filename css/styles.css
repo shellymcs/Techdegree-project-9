@@ -8,14 +8,49 @@
     background-color: transparent;
 }
 
-.img-fluid{
-    width: 100%;
-    
+
+.navbar-toggler{
+    background-color: rgba(255, 255, 255, .5);
+    border-color: white;
 }
 
 
+.img-fluid{
+    width: 100%;   
+}
 
-.jumbrotron{
-    background-image: url();
-    background-size: cover;
+.tagline{
+    position: absolute;
+    top: 130px;
+    left: 30px;
+    width:60%;
+    color: white;
+    background-color: transparent;
+    
+}
+
+.tagline,
+.text-muted{
+    color:white!important;
+}
+
+.btn,
+.btn-primary{
+    background-color: rgb(240, 190, 128) ;
+    border-color:  rgb(240, 190, 128);
+    color: black;
+}
+
+.btn:hover,
+.btn-primary:hover{
+    color:white;
+    background-color: rgb(238, 165, 77);
+    border:  rgb(238, 165, 77);
+}
+
+.michelle{
+    border-radius: 5px;
+    width: 300px;
+    
+   
 }

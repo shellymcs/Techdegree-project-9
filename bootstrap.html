@@ -5,17 +5,16 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&family=Rubik&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <div class="landing">
-      <img src="images/nz-background.JPG" class="img-fluid" style="z-index: -100;" alt="Photo of landscape in New Zealand">
-
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top container">
-        <a class="navbar-brand mx-3" href="#">MM Web Design</a>
+       <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand mx-3" href="#"><img id="main-logo" src="images/designlogo.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,26 +22,31 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link h4 ml-4" href="#">About</a>
+              <a class="nav-link h4 ml-4" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link h4 ml-4" href="#">Portfolio</a>
+              <a class="nav-link h4 ml-4" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link h4 ml-4" href="#">Contact</a>
+              <a class="nav-link h4 ml-4" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
+      <div class="header">
+      <img src="images/header-img.jpg" class="header-img img-fluid"  alt="Photo of laptop">
       <div class="tagline py-0">
       <h2 class="">
-        Web Designer and Developer,
+        Web Designer and Developer, 
         <small class="text-muted">Based in the Wairarapa, New Zealand</small>
       </h2>
-      <button type="submit" class="btn btn-primary">View Portfolio</button>
+      <a href="#portfolio"><button type="submit" class="btn btn-primary">View Portfolio</button></a>
       </div>
     </div>
-    <div class="container ">
+    
+   
+   
+    <div id="about" class="container ">
       <!-- about -->
       
       <div class="row my-5">
@@ -57,7 +61,7 @@
       </div>
       <div class="row my-5">
         <div class="col my-auto">
-          <img src="images/workhome.jpg" class="michelle img-fluid" alt="Photo of laptop and Michelles's dog, Nala">
+          <img src="images/work-img.jpg" class="michelle img-fluid" alt="Photo of laptop and desk by Alexandru Acea on Unsplash">
         </div>    
         <div class="col my-auto">
           <h3>What I can do</h3>
@@ -69,12 +73,12 @@
     </div><!-- /.container -->
     
 <!-- portfolio -->
-<section class="cantainer">
-<h3>Portfolio</h3>
+<section class="container portfolio">
+<h3 id="portfolio">Portfolio</h3>
 <div class="row row-cols-1 row-cols-md-2">
   <div class="col mb-4">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="images/employee-api-img.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -83,7 +87,7 @@
   </div>
   <div class="col mb-4">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="images/contact-form-img.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -92,7 +96,7 @@
   </div>
   <div class="col mb-4">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="images/game-show-app-img.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -101,7 +105,7 @@
   </div>
   <div class="col mb-4">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="images/Responsive-layout-img.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -110,7 +114,7 @@
   </div>
   <div class="col mb-4">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="images/portfolio-img.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -119,7 +123,7 @@
   </div>
   <div class="col mb-4">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="images/dashboard-app-img.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -127,7 +131,7 @@
     </div>
   </div>
 </div>
-</section>
+
     <!-- /portfolio -->
 
     <!-- contact-->
@@ -137,10 +141,22 @@
     I’m currently available for freelance work.
     If you have a project that you want to get started,
      think you need my help with something or just fancy saying hey, then get in touch</h5>
-  <button type="submit" class="btn btn-primary">View Portfolio</button>
+  <button type="submit" class="btn btn-primary">Contact</button>
 </section>
+</section>
+    </div>
     
     <!-- /contact -->
+        <!-- footer-->
+<section id="contact">
+  <h3>social media icons will go here</h3>
+  
+</section>
+</section>
+    
+    <!-- /footer -->
+
+
 
     
     <!===========================

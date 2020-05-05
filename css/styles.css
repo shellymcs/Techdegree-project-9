@@ -1,56 +1,136 @@
-.landing{
 
+.navbar {
+    color:   rgb(240, 190, 128);
+    background-color: white;
+    width: 100%;
+    font-family:'Rubik', sans-serif;
 }
 
-.navbar,
-{
-    color: white;
-    background-color: transparent;
+.navbar-toggler:hover{
+    cursor: pointer;
 }
 
-
-.navbar-toggler{
-    background-color: rgba(255, 255, 255, .5);
-    border-color: white;
+#main-logo{
+    height: 80px;
 }
 
 
 .img-fluid{
     width: 100%;   
+   
+}
+
+.header-img {
+   opacity: 0.7;
+   z-index: -100;
+   padding-top: 80px;
+   background-image: linear-gradient(to bottom right, transparent 0%, white 100%);
 }
 
 .tagline{
     position: absolute;
-    top: 130px;
-    left: 30px;
+    top: 200px;
+    left: 230px;
     width:60%;
-    color: white;
+    color: grey;
     background-color: transparent;
+    font-family:'Rubik', sans-serif;
     
 }
 
-.tagline,
-.text-muted{
-    color:white!important;
+.container{
+    max-width: 90%;
+    margin: auto;
 }
 
+
 .btn,
-.btn-primary{
+.btn-primary,
+a #portfolio{
     background-color: rgb(240, 190, 128) ;
     border-color:  rgb(240, 190, 128);
-    color: black;
+    color: rgb(66, 64, 64);
+    font-family: 'Karla', sans-serif;
+    margin-top: 15px;
 }
 
 .btn:hover,
 .btn-primary:hover{
+    cursor: pointer;
     color:white;
     background-color: rgb(238, 165, 77);
     border:  rgb(238, 165, 77);
+    text-decoration: none;
 }
 
 .michelle{
     border-radius: 5px;
     width: 300px;
+    height:200px;
+}
+
+h3{
+    font-family:'Rubik', sans-serif;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+p, h5{
+    font-family: 'Karla', sans-serif;
+    color: rgb(66, 64, 64);
+}
+
+#contact{
     
-   
+    text-align: center;
+}
+
+@media (min-width:768px){
+.tagline{
+    position: static;
+}
+
+.landing{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "nav header header"
+    "nav header header"
+    "nav about about"
+    "nav portfolio portfolio"
+    "nav portfolio portfolio"
+    "nav contact contact"
+    "footer footer footer"
+
+}
+.navbar {
+    grid-area: nav;
+}
+.header {
+    grid-area: header;
+}
+
+#about{
+    grid-area: about;
+}
+
+.portofolio{
+    grid-area: portfolio;
+}
+#contact{
+    grid-area: contact;
+}
+
+footer{
+    grid-area: footer;
+}
+
+
+
+}
+
+@media (min-width:1200px){
+
+
+    
 }

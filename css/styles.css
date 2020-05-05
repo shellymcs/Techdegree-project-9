@@ -69,10 +69,14 @@ a #portfolio{
     height:200px;
 }
 
+.card{
+margin-bottom: 30px;
+}
+
 h3{
     font-family:'Rubik', sans-serif;
     color: grey;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 p, h5{
@@ -80,8 +84,14 @@ p, h5{
     color: rgb(66, 64, 64);
 }
 
+.contact-btn{
+    margin-bottom: 30px;
+}
+
+#portfolio,
 #contact{
-    
+    padding-top: 30px;
+    border-top: 1px solid grey;
     text-align: center;
 }
 
@@ -93,8 +103,8 @@ p, h5{
 .landing{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 600px 350px 350px 350px 350px 120px;
     grid-template-areas: 
-    "nav header header"
     "nav header header"
     "nav about about"
     "nav portfolio portfolio"

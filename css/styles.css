@@ -1,4 +1,6 @@
-
+/* ===============
+Navigation
+==================*/
 .navbar {
     color:   rgb(240, 190, 128);
     background-color: white;
@@ -15,16 +17,17 @@
     height: 100px;
 }
 
-
-.img-fluid{
-    width: 100%;   
-   
-}
-
 #portfolio-anchor,
 #about-anchor{
     position: relative;
     top: -150px;
+}
+/* ===============
+Header
+==================*/
+
+.img-fluid{
+    width: 100%;     
 }
 
 
@@ -74,12 +77,10 @@ background-size: cover;
     color: white!important;
 }
 
-.container,
-#portfolio{
-    max-width: 90%;
-    margin: auto;
-}
 
+/* ===============
+Buttons
+==================*/
 
 
 .btn,
@@ -103,6 +104,15 @@ a #portfolio{
     text-decoration: none;
 }
 
+/*=============================
+Grids and containers
+==============================*/
+.container,
+#portfolio{
+    max-width: 90%;
+    margin: auto;
+}
+
 .michelle{
     border-radius: 5px;
     width: 300px;
@@ -113,6 +123,10 @@ a #portfolio{
 margin-bottom: 50px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+/*=============================
+Fonts and Sizing
+==============================*/
 
 h3{
     font-family:'Rubik', sans-serif;
@@ -151,6 +165,10 @@ p, h5{
     border-top: 1px solid grey;
     text-align: center;
 }
+
+/*=============================
+Footer
+==============================*/
 
 footer{
     height: 100px;

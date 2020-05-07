@@ -4,6 +4,7 @@
     background-color: white;
     width: 100%;
     font-family:'Rubik', sans-serif;
+    padding-right: 40px;
 }
 
 .navbar-toggler:hover{
@@ -19,6 +20,13 @@
     width: 100%;   
    
 }
+
+#portfolio-anchor,
+#about-anchor{
+    position: relative;
+    top: -150px;
+}
+
 
 .header-img {
    opacity: 0.6;
@@ -48,7 +56,18 @@ background-size: cover;
 }
 
 .headline{
+    animation: fadeInAnimation ease-in 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
     text-shadow: -1px -3px 2px rgba(148, 150, 105, 1);
+}
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
 }
 
 .text-muted{
@@ -97,8 +116,9 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 h3{
     font-family:'Rubik', sans-serif;
-    color: grey;
-    margin-bottom: 30px;
+    color: #808080;
+    padding-bottom: 30px;
+    font-size: 1.8em;
 }
 
 h5{
@@ -134,12 +154,38 @@ p, h5{
 
 footer{
     height: 100px;
-    background-color: rgb(202, 199, 199);
+    background-color: #cac7c7;
+    display: flex;
+    justify-content: center;
+}
+
+.social-image{
+    display: inline-flex;
+    margin: 15px 15px;
+    
+}
+
+.social-image:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.social-icon{
+    fill: #808080;
+    
+}
+
+.git-icon{
+    margin-top: 20px;
 }
 
 @media (min-width:768px){
 
 .navbar{
+    height: 150px;
+}
+
+#main-logo{
     height: 150px;
 }
 
@@ -149,11 +195,12 @@ footer{
 }
 
 .header{
+    position: relative;
     margin: auto;
 }
 
 .tagline{
-    position: fixed;
+    position: absolute;
     text-align: center;
 }
 
@@ -177,8 +224,27 @@ footer{
 #portfolio{
     margin-bottom: 30px;
 }
+.col{
+    margin: auto;
+}
+.michelle{
+    margin-top: auto;
+    width: 250px;
+    height:150px;
+}
+.card{
+    height: 700px;
+}
+
+.card-img-top{
+    height: 300px;
+}
+}
 
 @media (min-width:1200px){
+    .navbar{
+        padding-right: 60px;
+    }
     .grid{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
@@ -186,4 +252,18 @@ footer{
     .headline{
         font-size: 5em;
        }
+       .michelle{
+        width: 300px;
+        height:200px;
+    }
+
+    h3{
+        font-size: 2.5em;
+    }
+
+    .social-image{
+        margin: 15px 50px;
+        
+    }
+
 }

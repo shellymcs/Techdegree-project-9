@@ -261,9 +261,13 @@ footer{
     height: 300px;
 }
 
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
 .card-btn{
     margin: auto 20px 20px 20px;
-    font-size: 1em;
  }
 }
 
@@ -291,9 +295,5 @@ footer{
         margin: 15px 50px;
         
     }
-
-    .card-btn{
-        font-size: 0.9em;
-     }
 
 }

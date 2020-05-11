@@ -231,13 +231,6 @@ footer{
     margin-top: 20px;
 }
 
-.card-btn{
-    margin: auto 20px 20px 20px;
-    font-size: 1em;
-    
-
- }
-
 .container,
 .grid{
     display: grid;
@@ -263,6 +256,11 @@ footer{
 .card-img-top{
     height: 300px;
 }
+
+.card-btn{
+    margin: auto 20px 20px 20px;
+    font-size: 1em;
+ }
 }
 
 @media (min-width:1200px){
@@ -289,5 +287,9 @@ footer{
         margin: 15px 50px;
         
     }
+
+    .card-btn{
+        font-size: 0.9em;
+     }
 
 }

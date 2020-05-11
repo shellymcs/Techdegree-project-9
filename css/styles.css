@@ -103,7 +103,11 @@ a #portfolio{
     border:  rgb(238, 165, 77);
     text-decoration: none;
 }
+ .card-btn{
+    margin: 20px;
+    text-align: center;
 
+ }
 /*=============================
 Grids and containers
 ==============================*/
@@ -207,11 +211,6 @@ footer{
     height: 150px;
 }
 
-
-.header-img{
-    height: 
-}
-
 .header{
     position: relative;
     margin: auto;
@@ -231,6 +230,13 @@ footer{
     font-size: 2em;
     margin-top: 20px;
 }
+
+.card-btn{
+    margin: auto 20px 20px 20px;
+    font-size: 1em;
+    
+
+ }
 
 .container,
 .grid{
@@ -264,7 +270,7 @@ footer{
         padding-right: 60px;
     }
     .grid{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .headline{

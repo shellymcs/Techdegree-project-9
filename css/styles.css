@@ -1,3 +1,5 @@
+
+
 /* ===============
 Navigation
 ==================*/
@@ -50,13 +52,14 @@ background-size: cover;
 .tagline{
     position: absolute;
     top: 200px;
-    left: 230px;
+    left: 240px; 
     width:60%;
     color: white;
     background-color: transparent;
     font-family:'Rubik', sans-serif;
     
 }
+
 
 .headline{
     animation: fadeInAnimation ease-in 3s; 
@@ -199,6 +202,33 @@ footer{
 
 .git-icon{
     margin-top: 20px;
+}
+
+
+@media (min-width:250px) and (max-width:552px){
+    .navbar-toggler{
+        margin: 0 auto;
+    }
+    .tagline{
+        width: 100%;
+        position: initial;
+        background-color:  rgb(241, 210, 171);
+        text-align: center;
+        color: white;
+        font-family:'Rubik', sans-serif;
+        height: 150px;
+    }
+    
+    .header{
+        background-image: none;
+    }
+
+    .header-img {
+        opacity: 0.6;
+        z-index: -100;
+        padding-top: 140px;
+        
+     }
 }
 
 @media (min-width:768px){

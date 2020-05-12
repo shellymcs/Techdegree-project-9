@@ -62,6 +62,9 @@ background-size: cover;
     
 }
 
+.hidden{
+    display: none;
+}
 
 .headline{
     animation: fadeInAnimation ease-in 3s; 

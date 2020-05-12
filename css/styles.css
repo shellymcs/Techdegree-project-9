@@ -242,6 +242,10 @@ footer{
         font-size: 1.5em;
     }
 
+  .nav-link{
+font-size: 1.3em;
+    }
+
 .navbar{
     height: 150px;
 }
@@ -273,7 +277,7 @@ footer{
 .container,
 .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: 20px;
 }
 
@@ -302,7 +306,8 @@ footer{
 }
 
 .card-btn{
-    margin: auto 20px 20px 20px;
+    margin: 5px 20px 5px 20px;
+    font-size: 0.9em;
  }
 }
 
@@ -330,5 +335,12 @@ footer{
         margin: 15px 50px;
         
     }
+    
 
+}
+
+@media (min-width:1220px){
+.card-btn{
+    margin: 10px 20px 10px 20px;
+    font-size: 1.2em;
 }

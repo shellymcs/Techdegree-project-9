@@ -315,6 +315,10 @@ font-size: 1.3em;
     .navbar{
         padding-right: 60px;
     }
+
+    .nav-link{
+        font-size: 1.7em;
+    }
     .grid{
         grid-template-columns: 1fr 1fr 1fr;
     }

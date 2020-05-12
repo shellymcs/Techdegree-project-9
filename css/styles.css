@@ -163,7 +163,7 @@ p, h5{
     color: rgb(66, 64, 64);
 }
 
-#contact{
+#contact-anchor{
     width: 80%;
     margin: auto;
 }
@@ -172,7 +172,7 @@ p, h5{
 }
 
 #portfolio,
-#contact{
+#contact-anchor{
     padding-top: 30px;
     border-top: 1px solid grey;
     text-align: center;
